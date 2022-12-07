@@ -43,7 +43,7 @@ Person.findById(id, function (err, docs) {console.log(docs)});
 /*********************************************************************************************/
 
 /**********************************model.findOneAndUpdate()***********************************/
-Person.findOneAndUpdate({"name":"Firas Djebby"},{$set:{age:"26"}})
+Person.findOneAndUpdate({"name":"Ahmed Guerchy"},{$set:{age:"26"}})
 .then(updatedPerson => {console.log("Updated Person: ",updatedPerson)});
 /*********************************************************************************************/
 
@@ -53,6 +53,6 @@ Person.findByIdAndRemove(id, function (err, docs) {console.log("Removed Person :
 /*********************************************************************************************/
 
 /***************************************model.remove()****************************************/
-Person.remove({name:"Firas Djebby"})
+Person.remove({name:"Ahmed Guerchy"})
 .then(removedPersons => {console.log("Removed Person :",removedPersons)});
 /*********************************************************************************************/
