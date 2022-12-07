@@ -3,7 +3,7 @@ const Person = require("./models/person");
 
 /***********************Create_and_Save_a_Record_of_a_Model***********************************/
 Person.insertMany([{
-    name:"Firas Djebby",
+    name:"Ahmed Guerchy",
     age:25,
     favoriteFoods:["favFoodOne","favFoodTwo","favFoodThree"]
 }]).then( insertedElement => {console.log("The Inserted Elemenmt: ",insertedElement)});
